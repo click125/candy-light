@@ -1,0 +1,15 @@
+{
+  "name": "candy-light",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "A simplitic and colorful theme. So far this has only been tested for html, css, javascript, and json. Modeled after the code found in Shay Howe's Learn to Code HTML & CSS.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/atom/quantum-light",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
