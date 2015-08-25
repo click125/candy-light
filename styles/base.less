@@ -16,11 +16,22 @@ atom-text-editor, :host {
     color: @syntax-invisible-character-color;
   }
 
+  .line {
+    border-top: 1px solid @very-light-gray;
+    border-left: 1px solid @very-light-gray;
+    border-right: 1px solid @very-light-gray;
+  }
+
   .gutter {
     background-color: @syntax-gutter-background-color;
     color: @syntax-gutter-text-color;
 
+
     .line-number {
+      border-top: 1px solid @light-gray;
+      border-left: 1px solid @light-gray;
+      border-right: 1px solid @light-gray;
+
       &.cursor-line {
         background-color: @syntax-gutter-background-color-selected;
         color: @syntax-gutter-text-color-selected;
@@ -263,6 +274,10 @@ atom-text-editor .search-results .marker.current-result .region,
 
     &.id {
       color: @orange;
+
+      &.html {
+        color: @blue;
+      }
     }
 
     &.class {
